@@ -13,10 +13,6 @@ enum class GameState {
 }
 
 fun main() {
-    /*
-    print("Enter cells: ")
-    val input = readLine()!!.toString()
-     */
     val input = "_________"
     var board = input.chunked(3).map { it.toList() }
 
